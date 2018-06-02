@@ -124,17 +124,40 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/bg_3.png") no-repeat bottom center scroll;
-  background-color: black;
+  /* background: url("../img/bg_3.png") no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; */
+  background-color: black;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+.masthead .video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  overflow-y: scroll;
+}
+
+.videohue {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
+  z-index: 2;
+  position: relative;
 }
 
 .masthead .intro-body .brand-heading {
