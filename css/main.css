@@ -226,6 +226,12 @@ a:focus, a:hover {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.press-kit-header {
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+
 @media (min-width: 768px) {
   .masthead {
     height: 100%;
@@ -270,6 +276,10 @@ a:focus, a:hover {
   #polygon-review img {
     width: 150px;
   }
+
+  .press-kit-header {
+    font-size: 100px;
+  }
 }
 
 .btn-circle {
@@ -306,6 +316,10 @@ a:focus, a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.press-kit-section {
+  background: url("../img/apocalypse.jpg") no-repeat center center scroll;
 }
 
 #map {
